@@ -1,0 +1,4 @@
+#!/bin/sh
+# An empty fresh centos with the build mounted to test installation.test
+docker run -it -v ~/ned-rpm/rpmbuild/RPMS:/root/RPMS --name test --workdir /root/RPMS/x86_64 test /bin/bash
+docker rm test

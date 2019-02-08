@@ -1,0 +1,3 @@
+#!/bin/sh
+docker build --target ned-rpm -t ned-rpm .
+docker build --target test    -t test    .

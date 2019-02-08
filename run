@@ -1,0 +1,2 @@
+#!/bin/sh
+docker run -it -v ~/ned-rpm/rpmbuild:/root/rpmbuild --name ned-rpm ned-rpm
