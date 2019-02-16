@@ -1,5 +1,0 @@
-#!/bin/sh
-docker stop ned-rpm 2> /dev/null
-docker stop test    2> /dev/null
-docker container rm `docker container ls -aq` 2> /dev/null
-docker image     rm `docker image ls -aq`     2> /dev/null
